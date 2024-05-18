@@ -1,17 +1,17 @@
-data/train/image/
-data/train/json/
-data/train/segments/
+data/train/image/**/*.jpg
+data/train/json/**/*.json
+data/train/segments/**/*.png
 
-data/test/image/
-data/test/json/
-data/test/segments/
-data/test/inpainting_samples/json_samples
-data/test/inpainting_samples/mask
-data/test/inpainting_samples/masked_image
+data/test/image/**/*.jpg
+data/test/json/**/*.json
+data/test/segments/**/*.png
+data/test/inpainting_samples/json_samples/**/*.json
+data/test/inpainting_samples/mask/**/*.png
+data/test/inpainting_samples/masked_image/**/*.jpg
 
-data/val/image/
-data/val/json/
-data/val/segments/
-data/val/inpainting_samples/json_samples
-data/val/inpainting_samples/mask
-data/val/inpainting_samples/masked_image
+data/val/image/**/*.jpg
+data/val/json/**/*.json
+data/val/segments/**/*.png
+data/val/inpainting_samples/json_samples/**/*.json
+data/val/inpainting_samples/mask/**/*.png
+data/val/inpainting_samples/masked_image/**/*.jpg
