@@ -1,0 +1,17 @@
+data/train/image/
+data/train/json/
+data/train/segments/
+
+data/test/image/
+data/test/json/
+data/test/segments/
+data/test/inpainting_samples/json_samples
+data/test/inpainting_samples/mask
+data/test/inpainting_samples/masked_image
+
+data/val/image/
+data/val/json/
+data/val/segments/
+data/val/inpainting_samples/json_samples
+data/val/inpainting_samples/mask
+data/val/inpainting_samples/masked_image
