@@ -5,10 +5,8 @@ from tqdm import tqdm
 
 
 # data sources : original DB
-PATH_DB_IMAGENET = '/media/hanmu/storage2/PanopticSeg/raw_images/imagenet'
-PATH_DB_VG = '/media/hanmu/storage2/PanopticSeg/raw_images/visualgenome'
-# PATH_DB_IMAGENET = './source/imagenet'
-# PATH_DB_VG = './source/visualgenome'
+PATH_DB_IMAGENET = './source/imagenet'
+PATH_DB_VG = './source/visualgenome'
 
 PATH_DB_SOURCES = [PATH_DB_IMAGENET + '/train',
                    PATH_DB_IMAGENET + '/val',
