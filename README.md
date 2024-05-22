@@ -6,7 +6,22 @@ KETI-SG의 이미지들은 Imagenet(ILSVRC2012)과 Visual genome 데이터셋의
 
 # Install
 1. Download [Imagenet](https://www.image-net.org) and [Visual genome](https://homes.cs.washington.edu/~ranjay/visualgenome/), then extract them into /source
+|-- source
+        |-- imagenet
+                |-- train
+                |-- val
+                |-- test
+        |-- visualgenome
+                |-- VG_100K
+                |-- VG_100K_2
+
 2. Download [KETI-SG annotations](https://drive.google.com/file/d/1aWK8taUcZzvSLNv7XX5t34JsZxBefjp1/view?usp=drive_link), then extract them into /data
+|-- data
+        |-- meta_info
+        |-- train
+        |-- val
+        |-- test
+
 3. run gen_data.py for sampling raw images
 ```python 
 python3 gen_data.py 
