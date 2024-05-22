@@ -16,6 +16,19 @@ python3 gen_data.py
 python3 gen_inpainting_samples.py 
 ```
 
+# bibtex
+KETI-SG를 이용하여 연구를 진행하실 경우 아래와 같이 인용해주시기를 부탁드립니다.
+
+```
+@misc{keti-sg,
+    author       = {KETI AIRC},
+    title        = {KETI-SG: KETI scene graph dataset},
+    month        = dec,
+    year         = 2023,
+    url          = {https://github.com/AIRC-KETI/KETI-SG}
+}
+```
+
 
 # Acknowledgement
 * 본 연구는 2021년도 정부 (과학기술정보통신부)의 재원으로 정보통신기획평가원의 지원을 받아 수행된 연구임 (2021-0-00537, 자기지도 학습에 의한 시각적 상식으로 영상에서 보이지 않는 부분을 복원하는 기술)  
