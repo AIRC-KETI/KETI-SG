@@ -6,8 +6,9 @@ KETI-SG의 이미지들은 Imagenet(ILSVRC2012)과 Visual genome 데이터셋의
 
 # Install
 1. Download [Imagenet](https://www.image-net.org) and [Visual genome](https://homes.cs.washington.edu/~ranjay/visualgenome/), then extract them into /source  
+```
 .  
-├── source  
+└── source  
     ├── imagenet  
     │   ├── test  
     │   ├── train  
@@ -15,33 +16,34 @@ KETI-SG의 이미지들은 Imagenet(ILSVRC2012)과 Visual genome 데이터셋의
     └── visualgenome  
         ├── VG_100K  
         └── VG_100K_2  
-
+```
 
 2. Download [KETI-SG annotations](https://drive.google.com/file/d/1aWK8taUcZzvSLNv7XX5t34JsZxBefjp1/view?usp=drive_link), then extract them into /data
+```
 .  
-├── data  
-│   ├── meta_info  
-│   ├── test  
-│   │   ├── image  
-│   │   ├── inpainting_samples  
-│   │   │   ├── json_samples  
-│   │   │   ├── mask  
-│   │   │   └── masked_image  
-│   │   ├── json  
-│   │   └── segments  
-│   ├── train  
-│   │   ├── image  
-│   │   ├── json  
-│   │   └── segments  
-│   └── val  
-│       ├── image  
-│       ├── inpainting_samples  
-│       │   ├── json_samples  
-│       │   ├── mask  
-│       │   └── masked_image  
-│       ├── json  
-│       └── segments  
-
+└── data  
+    ├── meta_info  
+    ├── test  
+    │   ├── image  
+    │   ├── inpainting_samples  
+    │   │   ├── json_samples  
+    │   │   ├── mask  
+    │   │   └── masked_image  
+    │   ├── json  
+    │   └── segments  
+    ├── train  
+    │   ├── image  
+    │   ├── json  
+    │   └── segments  
+    └── val  
+        ├── image  
+        ├── inpainting_samples  
+        │   ├── json_samples  
+        │   ├── mask  
+        │   └── masked_image  
+        ├── json  
+        └── segments  
+```
 3. run gen_data.py for sampling raw images
 ```python 
 python3 gen_data.py 
