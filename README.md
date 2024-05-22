@@ -1,3 +1,3 @@
 # KETI-SG
 
-[main](KETI-SG.png)
+![main](KETI-SG.png)
